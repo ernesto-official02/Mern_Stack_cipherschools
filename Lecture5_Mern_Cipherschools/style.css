@@ -1,0 +1,65 @@
+*
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#myPara
+{
+    text-align: center;
+    font-size: 50px;
+}
+.firstpara
+{
+    text-align: center;
+    color: blueviolet;
+}
+/* p
+{
+    font-size: larger;
+    color: black;
+    text-align: center;
+} */
+
+h1, p , .firstpara
+{
+    color: rgb(12, 52, 28);
+    border: 20px;
+
+}
+/* 
+descedent selector  */
+div p{
+    background-color: aqua;
+}
+
+div > p{
+    background-color: rgb(226, 208, 43);
+}
+/* adjacent selector */
+div+p{
+    background-color: green;
+}
+/* 
+general sibling selector */
+
+ div~p:hover{    /* psuedo class  selector */
+    background-color: aqua;
+}
+
+div h2::first-letter
+ {                      /*   pseduo element selector */
+    color:red;
+}
+
+div h2:hover
+ {                      /*   pseduo element selector */
+    color:rgb(30, 230, 237);
+}
+/* 
+attribute selector */
+
+a[target]
+{
+    background-color: cyan;
+}
