@@ -1,0 +1,7 @@
+jsx looks and behaves like html
+jsx can contain 2 things:
+
+1. html elements
+2. react components
+
+3. jsx allows us to write js code inside
